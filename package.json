@@ -1,0 +1,13 @@
+{
+  "name": "disk-rental",
+  "private": true,
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.17.0"
+  },
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy:local": "npx hardhat run scripts/deploy.js --network localhost",
+    "start:backend": "node backend/index.js"
+  }
+}
